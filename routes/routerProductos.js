@@ -1,4 +1,4 @@
-/*
+
 
 
 
@@ -19,5 +19,3 @@ router.post('/', crearProducto);
 
 
 module.exports = router;
-
-*/

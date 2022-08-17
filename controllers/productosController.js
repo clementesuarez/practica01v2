@@ -1,5 +1,5 @@
 
-/*
+
 const knex = require('../db/conexion');
 
 const formularioProducto = (req, res) => {
@@ -29,4 +29,4 @@ module.exports = {
     selectProducto,
     crearProducto
 } 
-*/
+
