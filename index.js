@@ -32,12 +32,11 @@ app.set('view engine', '.hbs');
 //Rutas
 app.use('/api/productos', routesProductos);
 
-app.get('/', (req, res) => {
+app.get('./views/index', (req, res) => {
     res.send(`Bienvenido a la App Producto`)
 });
 
 app.listen(PORT, () => {
     console.log(`App trabajando en el Puerto ${PORT}`);
 })
-
 

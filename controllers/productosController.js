@@ -7,7 +7,7 @@ const formularioProducto = (req, res) => {
 }
 
 const selectProducto = (req, res) => {
-    knex.select('../views/formularioProducto.hbs')
+    knex.select('../views/formularioProducto')
     .from('productos')
     .then((response) => {
         for (row of response) {
